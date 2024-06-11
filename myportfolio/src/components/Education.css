@@ -1,0 +1,232 @@
+.main-edu1 {
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.text-edu{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-edu {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+}
+
+.left-edu {
+    height: 900px;
+    width: 40%;
+    margin-left: 64px;
+}
+
+.center-edu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%; /* Adjusted width to center the content */
+}
+
+.right-edu {
+    height: 900px;
+    width: 40%;
+    margin-right: 64px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+}
+
+.dot2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    margin-top: 120px; /* Adjust margin-top */
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: white;
+    height: calc(100% - 506px);
+
+}
+.line2 {
+    position: absolute;
+    left: 50%;
+    top: 29%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: white;
+    height: calc(100% - 386px);
+}
+.dot3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    margin-top: -66px; 
+}
+.line3 {
+    position: absolute;
+    left: 50%;
+    top: 108%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: white;
+    height: calc(100% - 393px);
+}
+.dot4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    margin-top: -96px; 
+}
+.line4 {
+    position: absolute;
+    left: 50%;
+    top: 142%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: white;
+    height: calc(100% - 400px);
+}
+.dot5 {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    margin-top: -147px; 
+}
+.elementry-edu{
+    height: 180px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: left;
+}
+.secondry-edu{
+    height: 150px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 19px;
+    text-align: right;
+}
+.non-medi{
+    height: 200px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 38px;
+    text-align: left;
+}
+.clg-edu{
+    height: 200px;
+    width: 100%;
+    font-size: 30px;
+    text-align: right;
+}
+.certifications{
+    height: fit-content;
+    width: 100%;
+}
+.heading-certifications{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.main-certificates{
+    height: 240px;
+    width: 95%;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.certi{
+    height: 211px;
+    width: 24%;
+    background: linear-gradient(126deg,rgba(231,0,195,1) 0%, rgba(8,0,255,1) 100%);
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: transform 0.3s ease;
+  
+}
+
+.certi:hover {
+transform: scale(1.2);
+}
+.certificate-img{
+    height: 200px;
+    border-radius: 3px;
+    width: 100%;
+
+}
+.main-certificates2{
+    height: 280px;
+    width: 95%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imgs-of-dmc1{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 40px auto;
+}
+.imgs-of-dmc2{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 40px auto;
+}
+.clg-dmc{
+    height: auto;
+    width: 100%;
+}
+.clg-dmc-img{
+    height: 290px;
+    width: 246px;
+    background: linear-gradient(126deg,rgba(231,0,195,1) 0%, rgba(8,0,255,1) 100%);
+    margin-bottom: 40px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+  
+}
+
+.clg-dmc-img:hover {
+transform: scale(1.2);
+}
+.clg-dmc-img-1{
+    height: 280px;
+    width: 235px;
+}
+.text-dmc{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}

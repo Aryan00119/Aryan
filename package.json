@@ -1,0 +1,11 @@
+{
+    "name": "aryan_portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "install-client": "cd myportfolio && npm install",
+      "build-client": "cd myportfolio && npm build",
+      "start-client": "cd myportfolio && npm start"
+    }
+  }
