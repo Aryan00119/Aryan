@@ -1,0 +1,79 @@
+.main-contact {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.heading-follow-contact {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.heading-contact {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.cont, .cont1 {
+    margin-top: 30px;
+}
+
+.email-cont, .phone-cont, .address, .insta-follow-contact, .linkd-follow-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.email-ic, .address-ic, .ic {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 2em;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+}
+
+.phone-ic{
+    width: 70px;
+    height: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 2em;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+}
+
+.email-ic {
+    background: linear-gradient(100.6deg, rgb(232, 187, 6), rgb(82, 77, 237));
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+}
+
+.phone-ic, .address-ic {
+    background: linear-gradient(100.6deg, rgb(82, 77, 237), rgb(232, 187, 6));
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+}
+
+.ic:hover {
+    transform: scale(1.2);
+}
+
+.name-email, .name-address {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}

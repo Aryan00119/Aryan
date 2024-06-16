@@ -1,0 +1,25 @@
+.profile{
+    height: 150px !important;
+    width: 150px !important;
+    border: 1px solid rgb(232, 187, 6) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn1{
+    border: 1px solid rgb(232, 187, 6) !important;
+    color: rgb(232, 187, 6) !important; /* insert your COLOR variable here */;
+    box-shadow: rgb(232, 187, 6) 0px 0px 10px !important;
+    }
+.btn1:active{
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(
+      109.6deg,
+      rgb(87, 90, 0) 11.2%, 
+      rgb(122, 140, 6) 53.7%,
+      rgb(144, 180, 0) 100.2%
+    );
+}

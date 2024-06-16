@@ -1,36 +1,28 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import About from './components/About';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
-import Education from './components/Education';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
+import Home from './components/home/Home';
+import Nav from './utills/common/NavBar';
+import Projects from './components/projects/Projects';
+import Education from './components/education/Education';
+import ContactMe from './components/contact/ContactMe';
+
+
 
 function App() {
   return (
-    <div className="App">
-
-
-
-      <BrowserRouter>
-        <Nav></Nav>
-        <Routes>
-          <Route path='/' element={<About></About>}></Route>
-          <Route path='/Education' element={<Education></Education>}></Route>
-          <Route path='/Contact' element={<Contact></Contact>}></Route>
-          <Route path='/Projects' element={<Projects></Projects>}></Route>
-          <Route path='/Resume' element={<Resume></Resume>}></Route>
-
-        </Routes>
-        <Footer></Footer>
+    <div className='App'>
+        <BrowserRouter>
+      <Nav></Nav>
+      <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/Projects' element={<Projects/>}></Route>
+      <Route path='/Education' element={<Education/>}></Route>
+      <Route path='/Contact' element={<ContactMe/>}></Route>
+      </Routes>
       </BrowserRouter>
-
-
-
     </div>
+
   );
-}
+} 
 
 export default App;

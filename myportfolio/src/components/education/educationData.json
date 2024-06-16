@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "level": "Elementary",
+      "institution": "Govt. elementary School Zahura",
+      "details": "1st - 5th, Passed 5th with A grade and first position"
+    },
+    {
+      "id": 2,
+      "level": "Secondary",
+      "institution": "Govt. senior sec. school Zahura",
+      "details": "6th - 10th"
+    },
+    {
+      "id": 3,
+      "level": "Higher Secondary",
+      "institution": "Govt. sen. sec. school Khudda",
+      "details": "11th - 12th (Science), Passed 12th with 76%"
+    },
+    {
+      "id": 4,
+      "level": "College",
+      "institution": "Lyallpur Khalsa College Technical Campus Jalandhar",
+      "details": "Completed B.Tech (CSE) with 7.70 CGPA"
+    }
+  ]
+  
