@@ -46,6 +46,12 @@ import P3IMG7 from "../utills/assets/project3/7.png"
 import P3IMG8 from "../utills/assets/project3/8.png"
 import P3IMG9 from "../utills/assets/project3/9.png"
 
+import P4IMG1 from "../utills/assets/project4/1.png"
+import P4IMG2 from "../utills/assets/project4/2.png"
+import P4IMG3 from "../utills/assets/project4/3.png"
+import P4IMG4 from "../utills/assets/project4/4.png"
+import P4IMG5 from "../utills/assets/project4/5.png"
+
 import CERTI1 from "../utills/assets/certificates/1.jpg"
 import CERTI2 from "../utills/assets/certificates/2.jpg"
 // import CERTI3 from "../utills/assets/certificates/3.jpg"
@@ -68,6 +74,7 @@ export const images = [
 export const project1Images = [P1IMG1,P1IMG2,P1IMG3,P1IMG4,P1IMG5]
 export const project2Images = [P2IMG1,P2IMG2,P2IMG3,P2IMG4,P2IMG5,P2IMG6,P2IMG7,P2IMG8]
 export const project3Images = [P3IMG1,P3IMG2,P3IMG3,P3IMG4,P3IMG5,P3IMG6,P3IMG7,P3IMG8,P3IMG9]
+export const project4Images = [P4IMG1,P4IMG2,P4IMG3,P4IMG4,P4IMG5]
 
 export const certificateImages = [
     [CERTI1, CERTI2, CERTI5,CERTI6],
@@ -112,6 +119,20 @@ export const projects = [
       'Blog Reading: Users can explore and read blogs posted by others, gaining insights and inspiration from a diverse range of topics.',
       'Commenting System: Users can add comments to blogs, facilitating discussions and feedback, enhancing the community interaction.',
   ]
+},
+{
+  projectName: '3D Game',
+  projectDescription: 'I have successfully completed a 3D game project developed using Python. In this game, the main character is equipped with a shotgun, which they use strategically to eliminate enemy monsters. The primary objective of the game is for the protagonist to survive by defeating these adversaries and ultimately emerge victorious.',
+  technologiesUsed: [
+      { name: 'Python', description: 'I utilized Python to develop this game, as its built-in libraries facilitate and simplify the design process.' },
+      { name: 'Pixal-lab', description: 'I utilized Pixallab to design the protagonist and other elements such as wall textures and enemy characters.' }
+  ],
+  features: [
+      'The user can enjoy a free battle royale game and play without the need for any additional file downloads.',
+      'The game has a small file size, making it easy to play.',
+      'The game features a larger map for survival and exploration.',
+  ],
+  images: project4Images,
 },
 {
 projectName: 'Sports Sync',
