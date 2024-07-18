@@ -64,6 +64,8 @@ import CERTI9 from "../utills/assets/certificates/9.jpg"
 import CERTI10 from "../utills/assets/certificates/10.jpg"
 import CERTI11 from "../utills/assets/certificates/11.jpg"
 import CERTI12 from "../utills/assets/certificates/12.jpg"
+import CERTI13 from "../utills/assets/certificates/13.jpg"
+import CERTI14 from "../utills/assets/certificates/14.jpg"
 
 export const images = [
     IMG1, IMG2, IMG3, IMG4, IMG5, IMG6, IMG7, IMG8,
@@ -79,7 +81,7 @@ export const project4Images = [P4IMG1,P4IMG2,P4IMG3,P4IMG4,P4IMG5]
 export const certificateImages = [
     [CERTI1, CERTI2, CERTI5,CERTI6],
     [CERTI7, CERTI8,CERTI9, CERTI10,],
-    [ CERTI11,CERTI12],
+    [ CERTI11,CERTI12, CERTI13,CERTI14],
 
   ];
 
