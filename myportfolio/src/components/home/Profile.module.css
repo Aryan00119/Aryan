@@ -1,0 +1,32 @@
+.profile {
+    height: 150px !important;
+    width: 150px !important;
+    border: 1px solid rgb(232, 187, 6) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.profile:hover {
+    transform: scale(1.1); /* Slightly enlarge the profile on hover */
+    box-shadow: 0 0 15px rgb(232, 187, 6), 0 0 30px rgba(232, 187, 6, 0.5); /* Apply a glowing effect */
+    background-color: rgba(85, 70, 13, 0.1); /* Light background on hover */
+    border-color: rgb(255, 215, 0); /* Change border color on hover */
+}
+
+.react-icon {
+    font-size: 3rem; /* Ensure the icons are visible and consistent */
+    color: rgb(232, 187, 6); /* Set icon color */
+}
+
+.react-icon:hover {
+    color: rgb(255, 215, 0); /* Change icon color on hover */
+}
+
+.web-text, .web-text2 {
+    color: white;
+    margin-top: 10px;
+}

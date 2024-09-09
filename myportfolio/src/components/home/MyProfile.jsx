@@ -2,7 +2,7 @@ import React from 'react'
 import { SiGoogledisplayandvideo360, SiCodesignal } from "react-icons/si";
 import { IoBusinessSharp } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
-import styles from "./Header.module.css"
+import styles from "./Profile.module.css"
 import { COLOR } from "../../utills/constants"
 
 const MyProfile = () => {

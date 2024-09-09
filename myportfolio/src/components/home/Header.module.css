@@ -10,7 +10,7 @@
 }
 .btn1{
     border: 1px solid rgb(232, 187, 6) !important;
-    color: rgb(232, 187, 6) !important; /* insert your COLOR variable here */;
+    color: rgb(232, 187, 6) !important;
     box-shadow: rgb(232, 187, 6) 0px 0px 10px !important;
     }
 .btn1:active{

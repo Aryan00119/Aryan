@@ -11,7 +11,9 @@
     z-index: 2;
     width: 100%;
     /* margin: 0px 20px; */
-    background: rgb(149, 108, 20);
+    /* background: rgb(149, 108, 20); */
+    background-color: black;
+    border: #d6d605 1px solid;
     font-family: 'Trebuchet MS', sans-serif;
   }
   

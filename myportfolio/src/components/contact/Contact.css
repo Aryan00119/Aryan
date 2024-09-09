@@ -1,79 +1,80 @@
-.main-contact {
+.contact-container {
+    padding: 2rem;
+    background-color: black;
+    color: #d6d605;
+    border-radius: 8px;
     margin-top: 50px;
-    font-family: 'Trebuchet MS', sans-serif;
-    color: white;
-}
-.heading-follow-contact {
+  }
+  
+  .contact-box {
+    background-color: rgba(214, 214, 5, 0.1);
+    padding: 1.5rem;
+    margin: 1rem;
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-.heading-contact {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-
-.cont, .cont1 {
-    margin-top: 30px;
-}
-
-.email-cont, .phone-cont, .address, .insta-follow-contact, .linkd-follow-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.email-ic, .address-ic, .ic {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: white;
-    font-size: 2em;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
-    transition: transform 0.3s ease;
-}
-
-.phone-ic{
-    width: 70px;
-    height: 70px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: white;
-    font-size: 2em;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
-    transition: transform 0.3s ease;
-}
-
-.email-ic {
-    background: linear-gradient(100.6deg, rgb(232, 187, 6), rgb(82, 77, 237));
-    height: 120px;
-    width: 120px;
-    padding: 10px;
-}
-
-.phone-ic, .address-ic {
-    background: linear-gradient(100.6deg, rgb(82, 77, 237), rgb(232, 187, 6));
-    height: 120px;
-    width: 120px;
-    padding: 10px;
-}
-
-.ic:hover {
+    border-radius: 12px;
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out, background 0.6s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; /* Indicates interactivity */
+  }
+  
+  .contact-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(214, 214, 5, 0.5), transparent);
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  .contact-box:hover::before {
+    transform: translateX(100%);
+  }
+  
+  .contact-box:hover {
+    transform: translateY(-15px) scale(1.1) rotate(-3deg);
+    box-shadow: 0 15px 30px rgba(214, 214, 5, 0.6);
+    background: linear-gradient(120deg, black, #d6d605);
+  }
+  
+  .contact-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #d6d605;
+    transition: transform 0.6s ease-in-out, color 0.6s ease-in-out;
+  }
+  
+  .contact-box:hover .contact-icon {
     transform: scale(1.2);
-}
-
-.name-email, .name-address {
-    font-size: 1.2em;
-    margin-top: 20px;
-    font-family: 'Trebuchet MS', sans-serif;
-}
+    color: white;
+  }
+  
+  .contact-text {
+    font-size: 1.2rem;
+    transition: color 0.6s ease-in-out;
+  }
+  
+  .contact-box:hover .contact-text {
+    color: white;
+  }
+  
+  .follow-me-heading {
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: bold;
+    color: #d6d605;
+    transition: transform 0.6s ease-in-out;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-box {
+      margin-bottom: 1rem;
+    }
+  
+    .follow-me-heading {
+      font-size: 1.5rem;
+    }
+  }
+  

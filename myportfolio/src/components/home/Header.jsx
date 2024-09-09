@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import PROFILEPIC from "../../utills/assets/photo.jpg"
+import PROFILEPIC from "../../utills/assets/Myimg.png"
 import RESUME from "../../utills/assets/certificates/Aryan_resume (3).png"
 import { COLOR } from "../../utills/constants"
 import styles from "./Header.module.css"

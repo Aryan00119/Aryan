@@ -5,7 +5,7 @@ import IMG4 from "../utills/assets/4.jpg";
 import IMG5 from "../utills/assets/5.jpg";
 import IMG6 from "../utills/assets/6.jpg";
 import IMG7 from "../utills/assets/7.jpg";
-import IMG8 from "../utills/assets/8.jpg";
+import IMG8 from "../utills/assets/8.png";
 import IMG9 from "../utills/assets/9.jpg";
 import IMG10 from "../utills/assets/10.jpg";
 import IMG11 from "../utills/assets/11.jpg";
